@@ -2,7 +2,7 @@ const botoesCarrossel = document.querySelectorAll('.botao');
 const imagens = document.querySelectorAll('.imagem');
 
 botoesCarrossel.forEach((botao, indice) => {
-    botao.addEventListener('clikc', () => {
+    botao.addEventListener('click', () => {
 
         desativarBotaoSelecionado();
 
